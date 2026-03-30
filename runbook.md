@@ -4,7 +4,7 @@
 If user cannot login, forgot password, or has authentication errors:
 - Assigned Agent: Runbook Agent
 - Action: Ask user to reset password at self-service portal
-- Portal URL: https://portal.sirpi.io/reset
+- Portal URL: https://windvista-v2-dev.sirpi.co.in
 
 ## Metrics and Infrastructure Health
 If user asks about CPU usage, memory usage, pod health, error rates, latency, logs, traces, or any live infrastructure data:
