@@ -6,6 +6,11 @@ If user cannot login, forgot password, or has authentication errors:
 - Action: Ask user to reset password at self-service portal
 - Portal URL: https://portal.sirpi.io/reset
 
+## Metrics and Infrastructure Health
+If user asks about CPU usage, memory usage, pod health, error rates, latency, logs, traces, or any live infrastructure data:
+- Assigned Agent: Observability Agent
+- Action: Query live infrastructure data from Prometheus and Tempo
+
 ## General Rule
 If issue does not match any rule above:
 - Assigned Agent: Triaging Agent
